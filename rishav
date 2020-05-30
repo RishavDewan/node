@@ -1,0 +1,24 @@
+importjava.io.*
+class rishav
+{
+  public static void main(String args[])throws IOException
+{
+  BufferedReader br = new BufferedReader(new InpuutStream reader(System.in))
+  System.out.println("Enter a year to check for leap year");
+  int a= Integer.parseInt(br.readLine());
+  if(a%400==0)
+  {
+   System.out.print("yes leap year");
+   else if(a%100==0)
+   { 
+    System.ut.print("no not leap year");
+    else if(a%4==0)
+    {
+    System.out.print("yes leap year");
+    else
+    {
+    System.out.print("Year not leap year");
+    }
+    }
+    }
+    \\Please review this java code it asks to find the leap year of a year.
